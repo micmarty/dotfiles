@@ -1,2 +1,6 @@
 alias g=lazygit
+alias v=vim
+
+alias ea='vim ~/.bash_aliases'
+alias er='vim ~/.bashrc'
 alias r='source ~/.bashrc'
