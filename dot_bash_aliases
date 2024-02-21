@@ -1,6 +1,9 @@
-alias g=lazygit
-alias v=vim
+alias g='lazygit'
+alias v='vim'
+alias cm='chezmoi'
+alias cme='EDITOR=code chezmoi edit'
 
 alias ea='vim ~/.bash_aliases'
+alias et='vim ~/.config/tmux/tmux.conf'
 alias er='vim ~/.bashrc'
 alias r='source ~/.bashrc'
