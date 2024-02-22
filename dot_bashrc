@@ -143,9 +143,14 @@ export PROMPT_DIRTRIM=4
 ##################################
 ### Custom
 ##################################
+
+# batcat feature for --help, e.g. python hello.py --help | help
 help() {
     "$@" --help 2>&1 | bathelp
 }
+
+# fzf
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.bash ] && source "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.bash
 eval "$(zoxide init --cmd j bash)"
 eval "$(oh-my-posh init bash)"
 eval "$(pyenv virtualenv-init -)"
