@@ -1,7 +1,7 @@
 alias g='lazygit'
 alias v='vim'
-alias cm='chezmoi'
-alias cme='EDITOR=code chezmoi edit'
+alias cz='chezmoi'
+alias cze='EDITOR=code chezmoi edit'
 
 alias ea='chezmoi edit --apply ~/.bash_aliases'
 alias et='chezmoi edit --apply ~/.config/tmux/tmux.conf'
