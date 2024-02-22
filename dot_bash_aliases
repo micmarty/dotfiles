@@ -1,5 +1,6 @@
 alias g='lazygit'
 alias v='vim'
+alias py='python -m pdb -c c'
 alias cz='chezmoi'
 alias cze='EDITOR=code chezmoi edit'
 
