@@ -4,6 +4,10 @@ alias py='python -m pdb -c c'
 alias cz='chezmoi'
 alias cze='EDITOR=code chezmoi edit'
 
+alias '..'='cd ..'
+alias '...'='cd ../..'
+alias '....'='cd ../../..'
+
 alias ea='chezmoi edit --apply ~/.bash_aliases'
 alias ep='chezmoi edit --apply ~/.bash_profile'
 alias et='chezmoi edit --apply ~/.config/tmux/tmux.conf'
