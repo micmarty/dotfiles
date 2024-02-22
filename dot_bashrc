@@ -145,3 +145,5 @@ export PROMPT_DIRTRIM=4
 ##################################
 eval "$(zoxide init bash)"
 eval "$(oh-my-posh init bash)"
+eval "$(pyenv virtualenv-init -)"
+
