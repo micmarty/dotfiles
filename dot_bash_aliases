@@ -4,6 +4,7 @@ alias cz='chezmoi'
 alias cze='EDITOR=code chezmoi edit'
 
 alias ea='chezmoi edit --apply ~/.bash_aliases'
+alias ep='chezmoi edit --apply ~/.bash_profile'
 alias et='chezmoi edit --apply ~/.config/tmux/tmux.conf'
 alias er='chezmoi edit --apply ~/.bashrc'
 alias r='source ~/.bashrc'
