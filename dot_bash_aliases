@@ -9,6 +9,8 @@ alias cze='EDITOR=code chezmoi edit'
 alias '..'='cd ..'
 alias '...'='cd ../..'
 alias '....'='cd ../../..'
+alias bat='bat --theme=TwoDark --color always'
+alias bathelp='bat --plain --language=help'
 
 alias ea='chezmoi edit --apply ~/.bash_aliases'
 alias ep='chezmoi edit --apply ~/.bash_profile'

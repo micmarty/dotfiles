@@ -143,7 +143,10 @@ export PROMPT_DIRTRIM=4
 ##################################
 ### Custom
 ##################################
-eval "$(zoxide init bash)"
+help() {
+    "$@" --help 2>&1 | bathelp
+}
+eval "$(zoxide init --cmd j bash)"
 eval "$(oh-my-posh init bash)"
 eval "$(pyenv virtualenv-init -)"
 
