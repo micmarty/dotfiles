@@ -1,6 +1,8 @@
 alias g='lazygit'
 alias v='vim'
 alias i='sudo apt install'
+alias j='cd'
+alias ji='cdi'
 
 alias py='python -m pdb -c c'
 alias cz='chezmoi'
@@ -10,7 +12,7 @@ alias '..'='cd ..'
 alias '...'='cd ../..'
 alias '....'='cd ../../..'
 alias bat='bat --theme=TwoDark --color always'
-alias bathelp='bat --plain --language=help'
+alias bh='bat --plain --language=help'
 
 alias ea='chezmoi edit --apply ~/.bash_aliases'
 alias ep='chezmoi edit --apply ~/.bash_profile'

@@ -151,7 +151,7 @@ help() {
 
 # fzf
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.bash ] && source "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.bash
-eval "$(zoxide init --cmd j bash)"
+eval "$(zoxide init --cmd cd bash)"
 eval "$(oh-my-posh init bash)"
 eval "$(pyenv virtualenv-init -)"
 
