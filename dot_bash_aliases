@@ -13,6 +13,9 @@ alias '...'='cd ../..'
 alias '....'='cd ../../..'
 alias bat='bat --theme=TwoDark --color always'
 alias bh='bat --plain --language=help'
+export FZF_DEFAULT_OPTS="--height=80% --info=inline --border --margin=1 --padding=1 --preview 'bat --color always --style=numbers --line-range=:500 {}'"
+
+
 
 alias ea='chezmoi edit --apply ~/.bash_aliases'
 alias ep='chezmoi edit --apply ~/.bash_profile'
